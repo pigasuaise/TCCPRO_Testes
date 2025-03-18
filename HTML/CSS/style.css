@@ -1,0 +1,14 @@
+.Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+}
