@@ -1,0 +1,35 @@
+/* Login e Registro */
+
+.Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh
+}
+
+.Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#LoginBtn button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+#LoginBtn button:hover {
+    transition: ease-in-out .5s;
+    background-color: green;
+}
