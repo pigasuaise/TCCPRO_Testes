@@ -1,0 +1,53 @@
+/* Login e Registro */
+
+.Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh
+}
+
+.Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#RegisterButton button {
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+}
+
+#RegisterButton button:hover {
+    transition: ease-in-out .5s;
+    background-color: rgb(00, 35, 59);
+}
+
+#LoginBtn button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+#LoginBtn button:hover {
+    transition: ease-in-out .5s;
+    background-color: hsl(120, 100%, 25%);
+}
